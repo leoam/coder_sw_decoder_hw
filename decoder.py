@@ -4,7 +4,7 @@ import collections
 import re
 import pprint
 
-assembler_file_path = "c:/Users/arayal/Google Drive/Maestria/Tesis/assembled.s"
+assembler_file_path = "c:/Users/arayal/Google Drive/Maestria/Tesis/Results/Olden/compute.s"
 # Set this flag in True to increase the logging verbosity
 debug_algorithm = False
 
@@ -77,9 +77,6 @@ class Decoder:
 
         return original_list, conversion_table
 
-            
-
-
 
 def main():
     # Get and prepare the input file
@@ -106,7 +103,7 @@ def main():
                 compressed_size += len(pattern[i])
 
     compression_rate = original_size / compressed_size
-    space_saving = 1 - compressed_size / original_size
+    space_saving = (1 - compressed_size / original_size) * 100
 
     # Print out the results
     print("Original size: ", original_size)
