@@ -1,0 +1,217 @@
+[
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/bh -I../olden/bh/src  -w -S -D__STRICT_ANSI__ -g   -o olden/bh/CMakeFiles/bh.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/bh -I../olden/bh/src  -w -S -D__STRICT_ANSI__ -g   -o olden/bh/CMakeFiles/bh.dir/src/newbh.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/newbh.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/newbh.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/bh -I../olden/bh/src  -w -S -D__STRICT_ANSI__ -g   -o olden/bh/CMakeFiles/bh.dir/src/util.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/util.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/util.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/bh -I../olden/bh/src  -w -S -D__STRICT_ANSI__ -g   -o olden/bh/CMakeFiles/bh.dir/src/walksub.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/walksub.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/bh/src/walksub.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/bisort -I../olden/bisort/src  -w -S -D__STRICT_ANSI__ -g   -o olden/bisort/CMakeFiles/bisort.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/bisort/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/bisort/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/bisort -I../olden/bisort/src  -w -S -D__STRICT_ANSI__ -g   -o olden/bisort/CMakeFiles/bisort.dir/src/bitonic.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/bisort/src/bitonic.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/bisort/src/bitonic.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/em3d -I../olden/em3d/src  -w -S -D__STRICT_ANSI__ -g   -o olden/em3d/CMakeFiles/em3d.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/em3d -I../olden/em3d/src  -w -S -D__STRICT_ANSI__ -g   -o olden/em3d/CMakeFiles/em3d.dir/src/em3d.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/em3d.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/em3d.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/em3d -I../olden/em3d/src  -w -S -D__STRICT_ANSI__ -g   -o olden/em3d/CMakeFiles/em3d.dir/src/main.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/main.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/main.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/em3d -I../olden/em3d/src  -w -S -D__STRICT_ANSI__ -g   -o olden/em3d/CMakeFiles/em3d.dir/src/make_graph.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/make_graph.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/make_graph.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/em3d -I../olden/em3d/src  -w -S -D__STRICT_ANSI__ -g   -o olden/em3d/CMakeFiles/em3d.dir/src/util.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/util.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/em3d/src/util.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/health -I../olden/health/src  -w -S -D__STRICT_ANSI__ -g   -o olden/health/CMakeFiles/health.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/health -I../olden/health/src  -w -S -D__STRICT_ANSI__ -g   -o olden/health/CMakeFiles/health.dir/src/health.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/health.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/health.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/health -I../olden/health/src  -w -S -D__STRICT_ANSI__ -g   -o olden/health/CMakeFiles/health.dir/src/list.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/list.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/list.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/health -I../olden/health/src  -w -S -D__STRICT_ANSI__ -g   -o olden/health/CMakeFiles/health.dir/src/poisson.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/poisson.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/health/src/poisson.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/mst -I../olden/mst/src  -w -S -D__STRICT_ANSI__ -g   -o olden/mst/CMakeFiles/mst.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/mst -I../olden/mst/src  -w -S -D__STRICT_ANSI__ -g   -o olden/mst/CMakeFiles/mst.dir/src/hash.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/hash.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/hash.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/mst -I../olden/mst/src  -w -S -D__STRICT_ANSI__ -g   -o olden/mst/CMakeFiles/mst.dir/src/main.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/main.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/main.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/mst -I../olden/mst/src  -w -S -D__STRICT_ANSI__ -g   -o olden/mst/CMakeFiles/mst.dir/src/makegraph.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/makegraph.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/mst/src/makegraph.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/perimeter -I../olden/perimeter/src  -w -S -D__STRICT_ANSI__ -g   -o olden/perimeter/CMakeFiles/perimeter.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/perimeter/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/perimeter/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/perimeter -I../olden/perimeter/src  -w -S -D__STRICT_ANSI__ -g   -o olden/perimeter/CMakeFiles/perimeter.dir/src/main.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/perimeter/src/main.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/perimeter/src/main.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/perimeter -I../olden/perimeter/src  -w -S -D__STRICT_ANSI__ -g   -o olden/perimeter/CMakeFiles/perimeter.dir/src/maketree.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/perimeter/src/maketree.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/perimeter/src/maketree.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/power -I../olden/power/src  -w -S -D__STRICT_ANSI__ -g   -o olden/power/CMakeFiles/power.dir/src/build.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/power/src/build.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/power/src/build.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/power -I../olden/power/src  -w -S -D__STRICT_ANSI__ -g   -o olden/power/CMakeFiles/power.dir/src/compute.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/power/src/compute.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/power/src/compute.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/power -I../olden/power/src  -w -S -D__STRICT_ANSI__ -g   -o olden/power/CMakeFiles/power.dir/src/main.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/power/src/main.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/power/src/main.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/treeadd -I../olden/treeadd/src  -w -S -D__STRICT_ANSI__ -g   -o olden/treeadd/CMakeFiles/treeadd.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/treeadd/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/treeadd/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/treeadd -I../olden/treeadd/src  -w -S -D__STRICT_ANSI__ -g   -o olden/treeadd/CMakeFiles/treeadd.dir/src/node.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/treeadd/src/node.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/treeadd/src/node.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/treeadd -I../olden/treeadd/src  -w -S -D__STRICT_ANSI__ -g   -o olden/treeadd/CMakeFiles/treeadd.dir/src/par-alloc.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/treeadd/src/par-alloc.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/treeadd/src/par-alloc.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/tsp -I../olden/tsp/src  -w -S -D__STRICT_ANSI__ -g   -o olden/tsp/CMakeFiles/tsp.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/tsp -I../olden/tsp/src  -w -S -D__STRICT_ANSI__ -g   -o olden/tsp/CMakeFiles/tsp.dir/src/build.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/build.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/build.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/tsp -I../olden/tsp/src  -w -S -D__STRICT_ANSI__ -g   -o olden/tsp/CMakeFiles/tsp.dir/src/main.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/main.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/main.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/tsp -I../olden/tsp/src  -w -S -D__STRICT_ANSI__ -g   -o olden/tsp/CMakeFiles/tsp.dir/src/tsp.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/tsp.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/tsp/src/tsp.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/voronoi -I../olden/voronoi/src  -w -S -D__STRICT_ANSI__ -g   -o olden/voronoi/CMakeFiles/voronoi.dir/src/args.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/args.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/args.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/voronoi -I../olden/voronoi/src  -w -S -D__STRICT_ANSI__ -g   -o olden/voronoi/CMakeFiles/voronoi.dir/src/newvor.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/newvor.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/newvor.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/voronoi -I../olden/voronoi/src  -w -S -D__STRICT_ANSI__ -g   -o olden/voronoi/CMakeFiles/voronoi.dir/src/output.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/output.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/output.c"
+},
+
+{
+  "directory": "/home/leonardo/Documents/Maestria/Tesis/sodden/build",
+  "command": "/usr/bin/gcc -DTORONTO -I. -Iolden/voronoi -I../olden/voronoi/src  -w -S -D__STRICT_ANSI__ -g   -o olden/voronoi/CMakeFiles/voronoi.dir/src/vector.c.o   -c /home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/vector.c",
+  "file": "/home/leonardo/Documents/Maestria/Tesis/sodden/olden/voronoi/src/vector.c"
+}
+]
