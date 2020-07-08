@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 void iirfilter(float* in, int buffersize, float* xmem, float* ymem, float scale, float* coeffs)
 {
     int i = 0;

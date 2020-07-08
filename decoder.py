@@ -4,7 +4,7 @@ import collections
 import re
 import pprint
 
-assembler_file_path = "c:/Users/arayal/Google Drive/Maestria/Tesis/Results/Olden/compute.s"
+assembler_file_path = "c:/Users/arayal/Google Drive/Maestria/Tesis/Results/ARM/Simple DSP benchmark/mean_filter_opt_O0.s"
 # Set this flag in True to increase the logging verbosity
 debug_algorithm = False
 
@@ -103,6 +103,7 @@ def main():
                 compressed_size += len(pattern[i])
 
     compression_rate = original_size / compressed_size
+    #compression_rate = compressed_size / original_size
     space_saving = (1 - compressed_size / original_size) * 100
 
     # Print out the results
