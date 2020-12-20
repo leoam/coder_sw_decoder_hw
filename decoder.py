@@ -3,8 +3,10 @@ import sys
 import collections
 import re
 import pprint
+import time
 
-assembler_file_path = "c:/Users/arayal/Google Drive/Maestria/Tesis/Results/ARM/Simple DSP benchmark/mean_filter_opt_O0.s"
+
+assembler_file_path = "C:/Users/arayal/Google Drive/Maestria/Tesis/coder_sw_decoder_hw/Benchmarks/Results/ARM/Loop Unrolling/loop_unrolling_8.s"
 # Set this flag in True to increase the logging verbosity
 debug_algorithm = False
 
@@ -93,8 +95,8 @@ def main():
     #input()
     decoder = Decoder()
     output_list, pattern = decoder.sequitur_algorithm(assembler_list)
-    pprint.pprint(output_list)
-    pprint.pprint(pattern)
+    #pprint.pprint(output_list)
+    #pprint.pprint(pattern)
 
     # Get the compression rates
     original_size = len(assembler_list_original)
@@ -112,4 +114,14 @@ def main():
     print("Compression rate ", compression_rate)
     print("Space saving {} %".format(space_saving))
 
-main()
+
+# Measure the execution time
+average = 0
+iterations = 30
+for i in range(iterations):
+    start_time = time.clock()
+    main()
+    final_time = time.clock()
+    average += (final_time - start_time)*1000
+
+print("Elapsed time %s ms" % (average/iterations))

@@ -7,7 +7,6 @@ class FileManagement:
 
         for line in file:
             print(line, end="")
-            print("Holaaa")
     
     def remove_whitespaces(self, list):
         new_list = []
