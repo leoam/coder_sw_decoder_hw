@@ -1,3 +1,0 @@
-BmkBasicInstall
-BasicBitcodeGen
-LLVM37O1
