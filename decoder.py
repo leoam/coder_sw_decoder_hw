@@ -6,7 +6,9 @@ import pprint
 import time
 
 
-assembler_file_path = "C:/Users/arayal/Google Drive/Maestria/Tesis/coder_sw_decoder_hw/Benchmarks/Results/ARM/Loop Unrolling/loop_unrolling_8.s"
+# Set the complete path where the assembled code is located. The input code could be compiled for any architecture
+assembler_file_path = "C:/Users/arayal/Google Drive/Maestria/Tesis/coder_sw_decoder_hw/Benchmarks/Results/ARM/DSP benchmark/fir_filter.s"
+
 # Set this flag in True to increase the logging verbosity
 debug_algorithm = False
 
@@ -18,8 +20,13 @@ class Decoder:
         match_positions = []
         idx = 0
         while idx < len(input_list) - 1:
-            if input_list[idx] == pattern[0] and \
-                input_list[idx + 1] == pattern[1]:
+
+            # Since the hardware decompressor doesn't support having tokens inside other tokens, avoid making
+            # replacements when a token is in the pattern
+            is_token = isinstance(input_list[idx], int) or isinstance(input_list[idx + 1], int)
+
+            # Perform a replacement only when the two lines match and none of the lines is a token
+            if not is_token and (input_list[idx] == pattern[0] and input_list[idx + 1] == pattern[1]):
                 match_positions.append(idx)
                 idx += 2
             else:
@@ -31,6 +38,8 @@ class Decoder:
         
         return len(match_positions), match_positions
 
+    # This is the main function of the compressor algorithm.
+    # It will produce two files: the compressed code and the conversion table
     def sequitur_algorithm(self, original_list):
         conversion_table = {}
         idx = 0
@@ -80,48 +89,59 @@ class Decoder:
         return original_list, conversion_table
 
 
-def main():
+def run_compressor():
     # Get and prepare the input file
     file_manager = FileManagement()
     file = file_manager.input_file_get(assembler_file_path)
     assembler_list = file_manager.file_list_get(file)
     assembler_list = file_manager.remove_whitespaces(assembler_list)
     assembler_list_original = assembler_list.copy()
-    #print(*assembler_list, sep = "\n") 
-    #file_manager.file_print(file)
+
     file_manager.input_file_close(file)
 
-    #print(assembler_list)
-    #input()
+    # Perform the compression algorithm over the input file
     decoder = Decoder()
     output_list, pattern = decoder.sequitur_algorithm(assembler_list)
-    #pprint.pprint(output_list)
-    #pprint.pprint(pattern)
+    print("\n\n**********************************************************")
+    print(" OUTPUT FILE")
+    print("**********************************************************\n")
+    pprint.pprint(output_list)
+
+    print("\n\n**********************************************************")
+    print(" CONVERSION TABLE")
+    print("**********************************************************\n")
+    pprint.pprint(pattern)
 
     # Get the compression rates
     original_size = len(assembler_list_original)
     compressed_size = len(output_list)
     for i in pattern:
-                compressed_size += len(pattern[i])
+        compressed_size += len(pattern[i])
 
     compression_rate = original_size / compressed_size
-    #compression_rate = compressed_size / original_size
     space_saving = (1 - compressed_size / original_size) * 100
 
     # Print out the results
+    print("\n\n**********************************************************")
+    print(" STATISTICS")
+    print("**********************************************************")
     print("Original size: ", original_size)
     print("Compressed size: ", compressed_size)
     print("Compression rate ", compression_rate)
     print("Space saving {} %".format(space_saving))
 
 
-# Measure the execution time
-average = 0
-iterations = 30
-for i in range(iterations):
-    start_time = time.clock()
-    main()
-    final_time = time.clock()
-    average += (final_time - start_time)*1000
+# Function used to get execution time statistics
+def execution_time_statistics():
+    average = 0
+    iterations = 30
+    for i in range(iterations):
+        start_time = time.clock()
+        run_compressor()
+        final_time = time.clock()
+        average += (final_time - start_time)*1000
 
-print("Elapsed time %s ms" % (average/iterations))
+    print("Elapsed time %s ms" % (average/iterations))
+
+# Execute only the decompressor
+run_compressor()
